@@ -4,7 +4,7 @@ android {
     buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "org.androidtown.drone"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -16,11 +16,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
     compile 'com.android.support:multidex:1.0.1'
-    compile project(':dJISDKLIB')  // <------------
+    compile project(':dJISDKLIB')
+    // <------------
 }

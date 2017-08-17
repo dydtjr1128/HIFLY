@@ -4,13 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-   <TextureView
-       android:id="@+id/video_previewer_surface"
+   <SurfaceView
+       android:id="@+id/surface_view"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:layout_gravity="center"
        android:layout_centerHorizontal="true"
        android:layout_above="@+id/linearLayout" />
+   <TextureView
+       android:layout_width="400dp"
+       android:layout_height="250dp"
+       android:id="@+id/texture"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+
+       />
 
    <LinearLayout
        android:layout_width="match_parent"
@@ -53,6 +61,20 @@
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:text="Record Video Mode"
+          android:layout_weight="1"
+          android:layout_gravity="center_vertical" />
+      <Button
+       android:id="@+id/btn_download_video_mode"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:text="Download Video Mode"
+       android:layout_weight="1"
+       android:layout_gravity="center_vertical" />
+      <Button
+          android:id="@+id/btn_download_video_mode_end"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Download Video Mode"
           android:layout_weight="1"
           android:layout_gravity="center_vertical" />
 

@@ -73,7 +73,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
 
     @Override
     public void onStop() {
-        Log.e(TAG, "onStop");
+        Log.e(TAG, "onStop7");
         super.onStop();
     }
 

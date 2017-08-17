@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodecEX/CodecEX.iml" filepath="$PROJECT_DIR$/CodecEX/CodecEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/Drone.iml" filepath="$PROJECT_DIR$/Drone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoStreammingEX/VideoStreammingEX.iml" filepath="$PROJECT_DIR$/VideoStreammingEX/VideoStreammingEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dJISDKLIB/dJISDKLIB.iml" filepath="$PROJECT_DIR$/dJISDKLIB/dJISDKLIB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
     </modules>
   </component>
 </project>

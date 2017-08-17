@@ -1,1 +1,2 @@
-include ':app', ':dJISDKLIB'
+include ':app', ':dJISDKLIB', ':VideoStreammingEX', ':CodecEX', ':main'
+
